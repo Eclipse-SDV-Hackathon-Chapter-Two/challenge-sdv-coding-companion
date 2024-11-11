@@ -145,7 +145,8 @@ Welcome to the SDV Coding Companion Hackathon challenge! This guide will walk yo
   <img src="./fig/sdv-protopilot-prompt.png" alt="sdv-protopilot-prompt" style="width: 80%; height: auto;">
 - Choose a generator from the marketplace. Your own generator will appear once approved by the admin.
 - Click **Generate** and wait 30-90 seconds for the code to be generated. The time may vary depending on model training.
-   <img src="./fig/sdv-protopilot-result.png" alt="sdv-protopilot-result" style="width: 80%; height: auto;">
+
+  <img src="./fig/sdv-protopilot-result.png" alt="sdv-protopilot-result" style="width: 80%; height: auto;">
 - If you are satisfied with the generated code, click **Add new generated code**.
   
   <img src="./fig/sdv-protopilot-add.png" alt="sdv-protopilot-add" style="width: 80%; height: auto;">
