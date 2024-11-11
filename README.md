@@ -130,7 +130,8 @@ Welcome to the SDV Coding Companion Hackathon challenge! This guide will walk yo
       <img src="./fig/update-package.jpg" alt="update-package" style="width: 80%; height: auto;">
 4. **Adjust the Deployment URL, Credentials, and Instructions**
    - Make necessary changes to your endpoint URL, credentials, and system instructions, then save the updated package.
-      <img src="./fig/deployment-adjust.jpg" alt="deployment-adjust" style="width: 80%; height: auto;">
+
+     <img src="./fig/deployment-adjust.jpg" alt="deployment-adjust" style="width: 80%; height: auto;">
 ---
 
 ## How to Use GenAI on the Playground
