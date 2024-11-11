@@ -67,6 +67,7 @@ Welcome to the SDV Coding Companion Hackathon challenge! This guide will walk yo
    - **Tip:** Use these templates as a base. Under “Instruction,” enter general guidelines, and under “Requirement,” place specific requests for your project’s needs. Once you identify an effective instruction or system message, save it and consider submitting it to [marketplace.digitalauto.tech](https://marketplace.digitalauto.tech) for public use.
 5. **Testing the Refined Code**
    - After adding instructions, the output should contain only the code, optimized for the Playground environment.
+
      <img src="./fig/pure-code.jpg" alt="pure-code" style="width: 80%; height: auto;">
    - Paste the code into the **Code** tab, run the prototype, and observe any API value changes.
      <img src="./fig/code-test.jpg" alt="code-test" style="width: 80%; height: auto;">
