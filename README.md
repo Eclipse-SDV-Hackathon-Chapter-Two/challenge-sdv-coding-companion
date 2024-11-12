@@ -9,9 +9,9 @@ Eclipse Autowrx is the open-source implementation of digital.auto ([digital.auto
 
 In this challenge, participants will build GenAI models on **AWS Bedrock** and deploy them on the **digital.auto Playground** to create new Software-defined Vehicle (SDV) features. The challenge is structured into three main sub-tasks:
 
-1. **Python Code Copilot**: Develop a copilot that can interact with various **COVESA Vehicle Signal Sepcification (VSS) APIs** to build prototype vehicle applications.
-2. **Widget Copilot**: Build a copilot that manages widget layouts on the digital.auto Playground dashboard.
-3. **JavaScript/HTML Code Copilot**: Create a copilot to visualize individual vehicle functions and support COVESA VSS APIs.
+1. **Python Code SDV Copilot**: Develop a copilot that can interact with various **COVESA Vehicle Signal Sepcification (VSS) APIs** to build prototype vehicle applications.
+2. **Dashboard Copilot**: Build a copilot that manages widget layouts on the digital.auto Playground dashboard.
+3. **JavaScript/HTML Code Widget Copilot**: Create a copilot to visualize individual vehicle functions and support COVESA VSS APIs.
 
 You can refer to the event poster here: [Link to Poster](https://drive.google.com/file/d/1vl9LnqI6kuFWbts8SiEvQ_BTht-dakeI/view?usp=sharing).
 
