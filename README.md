@@ -1,6 +1,24 @@
-# Challenge: SDV Coding Companion
+# Welcome to the SDV Coding Companion GenAI Hackathon Challenge!
+<img src="./fig/logo.jpg" alt="apply-creditsg" style="width: 80%; height: auto;">
 
-Welcome to the SDV Coding Companion Hackathon challenge! This guide will walk you through accessing your free AWS credits, setting up your project, and building a GenAI model on AWS Bedrock. Follow each step to make the most of your AWS Bedrock credits and successfully develop your project.
+## Overview
+
+Eclipse Autowrx is the open-source implementation of digital.auto ([digital.auto](http://digital.auto)), an industry-wide initiative that enables a digital-first approach to creating next-generation customer experiences and data-driven mobility services. Designed as an open ecosystem with a use-case-centric approach, digital.auto brings together automotive original equipment manufacturers (OEMs), suppliers, and partners to drive industry transformation. This global initiative is built on two foundational pillars of automotive technology development: the software-defined vehicle (SDV) and standardized vehicle APIs. Eclipse Autowrx aims to combine established standards with best practices and methodologies that translate technology into tangible business value.
+
+## Challenge Summary
+
+In this challenge, participants will build GenAI models on **AWS Bedrock** and deploy them on the **digital.auto Playground** to create new Software-defined Vehicle (SDV) features. The challenge is structured into three main sub-tasks:
+
+1. **Python Code Copilot**: Develop a copilot that can interact with various **COVESA Vehicle Signal Sepcification (VSS) APIs** to build prototype vehicle applications.
+2. **Widget Copilot**: Build a copilot that manages widget layouts on the digital.auto Playground dashboard.
+3. **JavaScript/HTML Code Copilot**: Create a copilot to visualize individual vehicle functions and support COVESA VSS APIs.
+
+You can refer to the event poster here: [Link to Poster](https://drive.google.com/file/d/1vl9LnqI6kuFWbts8SiEvQ_BTht-dakeI/view?usp=sharing).
+
+## Getting Started
+
+This guide will walk you through accessing your free AWS credits, setting up your project, building a GenAI model on **AWS Bedrock**, and deploying it on the **digital.auto Playground**. Follow each step to maximize your AWS Bedrock credits and successfully develop your project.
+.
 
 ---
 
