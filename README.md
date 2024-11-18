@@ -13,7 +13,7 @@ In this challenge, participants will build GenAI models on **AWS Bedrock** and d
 2. **Dashboard Copilot**: Build a copilot that manages widget layouts on the digital.auto Playground dashboard.
 3. **JavaScript/HTML Code Widget Copilot**: Create a copilot to visualize individual vehicle functions and support COVESA VSS APIs.
 
-Hackathon coaches: **Chris Cheng**, **Ismail Gharsallah**
+Hackathon coaches: **Chris Cheng**, **Ismail Gharsallah**.
 You can refer to the event poster here: [Link to Poster](https://drive.google.com/file/d/1vl9LnqI6kuFWbts8SiEvQ_BTht-dakeI/view?usp=sharing).
 
 ## Getting Started
@@ -25,30 +25,16 @@ This guide will walk you through accessing your free AWS credits, setting up you
 
 ## How to Access Your Free AWS Credits
 
-1. **Access the Registration Page**
-   - Visit [genai.digital.auto](http://genai.digital.auto/).
-   - Register a new account and log in. Logging in with a GitHub account is also available.
-     <img src="./fig/onboarding.png" alt="onboarding" style="width: 80%; height: auto;">
-2. **Complete Your Team Information**
-   - Enter your team details. Ensure all team members (up to 5) have registered accounts.
-     <img src="./fig/register-team.png" alt="register-team" style="width: 80%; height: auto;">
-3. **Apply for AWS Bedrock Credits**
-   - Provide a clear description of your project idea to apply for AWS credits.
-     <img src="./fig/apply-credits.png" alt="apply-creditsg" style="width: 80%; height: auto;">
-   - Submit your application and wait for approval, which may take some time.
-   - <img src="./fig/waiting-for-approval.png" alt="waiting-for-approval" style="width: 80%; height: auto;">
-
-4. **Review Your Team’s AWS Credentials**
-   - Once approved, your IAM user credentials and password will be available.
-     <img src="./fig/review-team.png" alt="review-team" style="width: 80%; height: auto;">
-   - **Note:** Access keys provided here cannot be used for direct AWS API calls due to security restrictions. They are exclusively for submitting your GenAI.
+1. **Visit the Hackathon Coaches**
+   - Share your team name, an email address, and a brief outline of your plan for the challenge with the coaches.
+   - The coach will create an IAM user for your team and send the account credentials file to the provided email address.
 
 ---
 
 ## How to Access the AWS Bedrock Console
 
 1. **Log in to AWS**
-   - Copy your IAM user credentials and password, then click "Open AWS Bedrock."
+   - Copy your IAM user credentials and password in the file, then click "Open AWS Bedrock."
    - Enter your IAM username and password, then sign in.
      
      <img src="./fig/fill-username-password.png" alt="fill-username-password" style="width: 80%; height: auto;">
@@ -99,7 +85,7 @@ This guide will walk you through accessing your free AWS credits, setting up you
 ## How to Submit Your GenAI Model
 
 1. **Access the Marketplace**
-   - From the previous **Review Your Team** screen, click "Go to marketplace," or directly visit [https://marketplace.digital.auto](https://marketplace.digital.auto).
+   - Visit [https://marketplace.digital.auto](https://marketplace.digital.auto).
 
 2. **Log In**
    - If you’ve previously logged into the GenAI website, your login should carry over. If you are not logged in, please use the same account you registered with.
@@ -108,7 +94,7 @@ This guide will walk you through accessing your free AWS credits, setting up you
    - Click **Add Package** to create a new submission.
      
       <img src="./fig/add-package.png" alt="add-package" style="width: 80%; height: auto;">
-1. **Fill in the Package Information**
+4. **Fill in the Package Information**
    - **Basic Information:** Include a package name, short description, and detailed description. Set visibility to **Public**.
    -   <img src="./fig/basic-info.png" alt="basic-info" style="width: 80%; height: auto;">
    - **Category:** Select **GenAI** and choose the corresponding type of GenAI model.
@@ -126,10 +112,10 @@ This guide will walk you through accessing your free AWS credits, setting up you
      <img src="./fig/fill-credentials-and-config.png" alt="fill-credentials-and-config" style="width: 80%; height: auto;">
    - **Add Images:** Upload a **Package Icon**, **Package Cover**, and **Feature Images** (at least one required for feature images).
 
-2. **Submit Your GenAI**
+5. **Submit Your GenAI**
    - Once you’ve filled in all the information, click **Submit** to submit your GenAI.
 
-3. **View Your Submissions**
+6. **View Your Submissions**
    - To view all your submissions, click on the **My Package** tab in the website header.
 
 **Note:** To submit another GenAI model, start over from step 1.
