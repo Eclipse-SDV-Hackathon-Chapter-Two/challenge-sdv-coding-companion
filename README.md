@@ -14,6 +14,7 @@ In this challenge, participants will build GenAI models on **AWS Bedrock** and d
 3. **JavaScript/HTML Code Widget Copilot**: Create a copilot to visualize individual vehicle functions and support COVESA VSS APIs.
 
 Hackathon coaches: **Chris Cheng**, **Ismail Gharsallah**.
+
 You can refer to the event poster here: [Link to Poster](https://drive.google.com/file/d/1vl9LnqI6kuFWbts8SiEvQ_BTht-dakeI/view?usp=sharing).
 
 ## Getting Started
