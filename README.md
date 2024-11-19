@@ -316,8 +316,10 @@ For Widget ProtoPilot, the expected format would begin with HTML tags, reflectin
         <!-- Body content with widget structure and functionality -->
     </body>
 </html>
-
 ```
+**Final Integration Tips** \
+To ensure the integration goes smoothly, always double-check the response formats from your models before integrating them with the Playground. This ensures your model’s output matches expectations and avoids potential miscommunications. By properly formatting the responses, your GenAI integration can thrive, offering smoother functionality across a wide range of use cases.
+
 ---
 
 Good luck with your Hackathon project! Experiment, iterate, and take full advantage of the tools and templates available.
