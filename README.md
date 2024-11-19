@@ -208,6 +208,7 @@ When interacting with models on **Amazon Bedrock**, the requests must be meticul
     "system": "<Optional system directive>",
     "input": "<User input prompt>"
 }
+```
 Sample Response: Titan Express G1
 
 
