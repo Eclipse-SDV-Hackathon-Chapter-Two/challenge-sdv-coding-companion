@@ -197,7 +197,7 @@ Engaging with a GenAI model through the Playground requires structured responses
 ### The Mechanism of Communication: Leveraging HTTP POST
 The Playground communicates with GenAI models using **HTTP POST** requests. These requests include not just the user’s input, but also optional system directives to guide the model's behavior. This approach secures data transmission and maintains response consistency.
 
-### Models Hosted on Amazon Bedrock
+### Models Hosted on Amazon Bedrock 
 When interacting with models on **Amazon Bedrock**, the requests must be meticulously crafted to include AWS credentials, the input prompt, and any guiding system messages. Here’s how a request might look:
 
 ```json
@@ -230,7 +230,7 @@ When interacting with models on **Amazon Bedrock**, the requests must be meticul
     ]
 }
 ```
-**Models Hosted on Other Infrastructures**
+**Models Hosted on Other Infrastructures** \
 For models hosted outside Amazon Bedrock, the request format generally involves a messages array, with each message identifying whether it's from the system or the user. These messages ensure that the model can distinguish between system directives and user inputs. Here's the format:
 
 ```json
@@ -241,7 +241,7 @@ For models hosted outside Amazon Bedrock, the request format generally involves 
     ]
 }
 ```
-**Sample Response for Other Infrastructures**
+**Sample Response for Other Infrastructures** 
 ```json
 {
     "choices": [
@@ -254,7 +254,7 @@ For models hosted outside Amazon Bedrock, the request format generally involves 
 }
 ```
 #### Model-Specific Response Examples
-**SDV ProtoPilot Response (Python Code)**
+**SDV ProtoPilot Response (Python Code)** \
 
 For specific models, such as SDV ProtoPilot, the response might be in Python format, such as the example below where it toggles the low beam:
 
@@ -280,7 +280,7 @@ async def toggle_low_beam():
 
 await toggle_low_beam()
 ```
-**Dashboard ProtoPilot Response (JSON Format)**
+**Dashboard ProtoPilot Response (JSON Format)** \
 For Dashboard ProtoPilot, the expected response format would be JSON, illustrating how widgets are structured and displayed:
 ```json
 {
@@ -305,7 +305,7 @@ For Dashboard ProtoPilot, the expected response format would be JSON, illustrati
     ]
 }
 ```
-**Widget ProtoPilot Response (HTML Format)**
+**Widget ProtoPilot Response (HTML Format)** \
 For Widget ProtoPilot, the expected format would begin with HTML tags, reflecting how the widget content and functionality are displayed within a web environment:
 
 ```html
