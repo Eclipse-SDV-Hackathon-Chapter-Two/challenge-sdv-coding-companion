@@ -253,7 +253,7 @@ For models hosted outside Amazon Bedrock, the request format generally involves 
     ]
 }
 ```
-#####Model-Specific Response Examples
+#### Model-Specific Response Examples
 **SDV ProtoPilot Response (Python Code)**
 For specific models, such as SDV ProtoPilot, the response might be in Python format, such as the example below where it toggles the low beam:
 ```python
