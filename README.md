@@ -209,7 +209,7 @@ When interacting with models on **Amazon Bedrock**, the requests must be meticul
     "input": "<User input prompt>"
 }
 ```
-Sample Response: Titan Express G1
+**Sample Response: Titan Express G1**
 ```json
 {
     "results": [
@@ -219,7 +219,65 @@ Sample Response: Titan Express G1
     ]
 }
 ```
+**Sample Response: Anthropic Claude 3**
+```json
+{
+    "content": [
+        {
+            "type": "text",
+            "text": "This is an output example for AWS Anthropic Claude 3."
+        }
+    ]
+}
+```
+**Models Hosted on Other Infrastructures**
+For models hosted outside Amazon Bedrock, the request format generally involves a messages array, with each message identifying whether it's from the system or the user. These messages ensure that the model can distinguish between system directives and user inputs. Here's the format:
 
+```json
+{
+    "messages": [
+        { "role": "system", "content": "<System message>" },
+        { "role": "user", "content": "<User input prompt>" }
+    ]
+}
+```
+**Sample Response for Other Infrastructures**
+```json
+{
+    "choices": [
+        {
+            "message": {
+                "content": "This is an output example for models hosted on other infrastructures."
+            }
+        }
+    ]
+}
+```
+#####Model-Specific Response Examples
+**SDV ProtoPilot Response (Python Code)**
+For specific models, such as SDV ProtoPilot, the response might be in Python format, such as the example below where it toggles the low beam:
+```python
+from sdv_model import Vehicle
+import plugins
+from browser import aio
+
+vehicle = Vehicle()
+
+async def toggle_low_beam():
+    # Init the default value
+    await vehicle.Body.Lights.IsLowBeamOn.set(False)
+    await aio.sleep(1)
+
+    for i in range(0, 10):
+        # Get the current state of low beam
+        low_beam_state = await vehicle.Body.Lights.IsLowBeamOn.get()
+
+        # Toggle the low beam
+        await vehicle.Body.Lights.IsLowBeamOn.set(not low_beam_state)
+        await aio.sleep(1)
+
+await toggle_low_beam()
+```
 ---
 
 Good luck with your Hackathon project! Experiment, iterate, and take full advantage of the tools and templates available.
