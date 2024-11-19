@@ -192,10 +192,24 @@ This guide will walk you through accessing your free AWS credits, setting up you
 
 ### 4. **How Playground Handles GenAI Responses**
 
-When interacting with GenAI models via the Playground, responses are structured for effective processing and presentation across different platforms, including Amazon Bedrock.
+Engaging with a GenAI model through the Playground requires structured responses to ensure seamless interaction and compatibility across various hosting environments, whether it’s **Amazon Bedrock** or a custom infrastructure. Here’s a creative breakdown of how it all works.
 
-- **HTTP POST Method:** Requests to your model’s endpoint will include user input (and optionally system messages) for secure and structured communication.
-- **AWS Bedrock Models:** Requests sent to Bedrock will return responses in a specific JSON format. This ensures smooth integration with the Playground system.
+### The Mechanism of Communication: Leveraging HTTP POST
+The Playground communicates with GenAI models using **HTTP POST** requests. These requests include not just the user’s input, but also optional system directives to guide the model's behavior. This approach secures data transmission and maintains response consistency.
+
+### Models Hosted on Amazon Bedrock
+When interacting with models on **Amazon Bedrock**, the requests must be meticulously crafted to include AWS credentials, the input prompt, and any guiding system messages. Here’s how a request might look:
+
+```json
+{
+    "url": "<Model's Endpoint URL>",
+    "accessKey": "<Your AWS Access Key>",
+    "secretKey": "<Your AWS Secret Key>",
+    "system": "<Optional system directive>",
+    "input": "<User input prompt>"
+}
+Sample Response: Titan Express G1
+
 
 ---
 
