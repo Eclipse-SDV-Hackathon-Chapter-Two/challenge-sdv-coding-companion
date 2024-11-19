@@ -210,7 +210,15 @@ When interacting with models on **Amazon Bedrock**, the requests must be meticul
 }
 ```
 Sample Response: Titan Express G1
-
+```json
+{
+    "results": [
+        {
+            "outputText": "This is an output example for AWS Bedrock Titan Express G1."
+        }
+    ]
+}
+```
 
 ---
 
