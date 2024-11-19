@@ -255,7 +255,9 @@ For models hosted outside Amazon Bedrock, the request format generally involves 
 ```
 #### Model-Specific Response Examples
 **SDV ProtoPilot Response (Python Code)**
+
 For specific models, such as SDV ProtoPilot, the response might be in Python format, such as the example below where it toggles the low beam:
+
 ```python
 from sdv_model import Vehicle
 import plugins
@@ -277,6 +279,45 @@ async def toggle_low_beam():
         await aio.sleep(1)
 
 await toggle_low_beam()
+```
+**Dashboard ProtoPilot Response (JSON Format)**
+For Dashboard ProtoPilot, the expected response format would be JSON, illustrating how widgets are structured and displayed:
+```json
+{
+    "auto_run": false,
+    "widgets": [
+        {
+            "plugin": "Builtin",
+            "widget": "Chart-APIs-Widget",
+            "options": {
+                "chartType": "line",
+                "num_of_keep_item": 30,
+                "chart_tick": 500,
+                "signals": [
+                    {
+                        "api": "Vehicle.Proximity",
+                        "color": "#3b82f6"
+                    }
+                ]
+            },
+            "boxes": [4, 5]
+        }
+    ]
+}
+```
+**Widget ProtoPilot Response (HTML Format)**
+For Widget ProtoPilot, the expected format would begin with HTML tags, reflecting how the widget content and functionality are displayed within a web environment:
+
+```html
+<html>
+    <head>
+        <!-- HTML Head content with meta, styles, and scripts -->
+    </head>
+    <body class="h-screen grid place-items-center bg-slate-100 select-none">
+        <!-- Body content with widget structure and functionality -->
+    </body>
+</html>
+
 ```
 ---
 
